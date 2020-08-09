@@ -12,3 +12,68 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header img {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+header li {
+    float: left;
+    padding-right: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+.description{
+    padding: 100px 100px;
+    background-color: lightgray;
+}
+.description img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+.description h2{
+    margin-top: 0;
+}
+.description .description-p2{
+    clear: both;
+}
+
+
+.relationship{
+    padding: 40px 100px;
+}
+.relationship img{
+    float: right;
+    margin-left: 20px;
+    width: 40%;
+}
+.relationship h2{
+    margin-top: 0;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
